@@ -29,7 +29,11 @@ $ composer require kinghang/laravel-translate
  ```shell script
     php artisan vendor:publish --provider="KingHang\LaravelTranslate\ServiceProvider::class"
 ```
-
+如果上述发布方式失败,请使用以下发布方式 选择对应发布应用的标号即可发布成功
+ ```shell script
+    php artisan vendor:publish
+```
+![](https://gitee.com/whongbin/FigureBed/raw/master/img/20201119163605.png)
 # 使用
 
 ```php
